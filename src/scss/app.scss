@@ -1,7 +1,3 @@
-@import 'base/variables';
-@import 'contenido/contenido';
-
-
-body{
-    background-color: $blue;
-}
+@use 'base';
+@use 'contenido';
+// Nueva sintaxis de agregar codigos de otros archivos
