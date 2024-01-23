@@ -1,0 +1,8 @@
+@use 'base/variables' as v;
+
+@mixin heading{
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    color: v.$negro;
+    letter-spacing: 1px;//separacio en pixeles para cada letra de la palabra
+}
