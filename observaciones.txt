@@ -11,3 +11,17 @@ Creando un Snippet para los Media queries
 	}
 
 pero tambien se pueden crear atajos para agilizar el tiempo de codeo  lo anterior es a modo ejemplo per ose pueden crear muchos mas
+
+Creando Snippet para importar Variables y  mixins
+"importar mixins":{
+		"prefix": "imm",
+		"body": [
+			"@use 'base/mixins' as m;"
+		]
+	},
+	"importar variables":{
+		"prefix": "imv",
+		"body": [
+			"@use 'base/variables' as v;"
+		]
+	}
