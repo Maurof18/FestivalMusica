@@ -9,19 +9,7 @@
     }
 }
 .navegacion-principal{
-    background-color: red;
-    @include m.telefono{
-        background-color: blue;
-    }
-    @include m.tablet{
-        background-color: green;
-    }
-    @include m.desktop{
-        background-color: yellow;
-    }
-    @include m.desktopXL{
-        background-color: pink;
-    }
+
 
     a{
       color: v.$blanco;  

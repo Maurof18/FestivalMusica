@@ -1,0 +1,13 @@
+Creando un Snippet para los Media queries
+
+1-> ctrl + shift + P 
+2-> seleccionar Snippet config 
+3->agregar lo siguiente
+	"media query":{
+		"prefix": "mq",
+		"body": [
+			"@include m.$1 {\n\t$2\n}" 
+		]
+	}
+
+pero tambien se pueden crear atajos para agilizar el tiempo de codeo  lo anterior es a modo ejemplo per ose pueden crear muchos mas
