@@ -367,9 +367,19 @@ h3 {
   color: #fef46d;
 }
 
-.prueba, .texto {
+.prueba {
   text-transform: uppercase;
   font-size: 2.4rem;
   color: #000000;
   letter-spacing: 1px;
+  background-color: green;
+  border-radius: 1rem;
+}
+
+.texto {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: #000000;
+  letter-spacing: 1px;
+  background-color: green;
 }

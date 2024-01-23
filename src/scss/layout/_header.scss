@@ -19,6 +19,9 @@
     }
 }
 
-.prueba, .texto{
-    @include m.heading;
+.prueba{
+    @include m.heading(v.$negro,true);
+}
+.texto{
+    @include m.heading(v.$negro);
 }
