@@ -1,13 +1,23 @@
 @use 'base/variables' as v;
 
-@mixin heading($color:blue, $border-radius:false){//variable por defecto en caso de que nose ingrese un color
-    text-transform: uppercase;
-    font-size: 2.4rem;
-    color: $color;
-    letter-spacing: 1px;//separacio en pixeles para cada letra de la palabra
-    background-color: green;
+@mixin telefono{
+    @media (min-width:v.$telefono) {
+        @content;
+    }
+}
+@mixin tablet{
+    @media (min-width: v.$tablet){
+        @content;
+    }
+}
 
-    @if $border-radius{
-        border-radius: 1rem;
+@mixin desktop{
+    @media (min-width: v.$desktop){
+        @content;
+    }
+}
+@mixin desktopXL{
+    @media (min-width: v.$desktopXL){
+        @content;
     }
 }
