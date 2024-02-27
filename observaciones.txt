@@ -25,3 +25,17 @@ Creando Snippet para importar Variables y  mixins
 			"@use 'base/variables' as v;"
 		]
 	}
+
+Creando un Snippet para las imagenes 
+
+"imagenes":{
+		"prefix": "im",
+		"body": [
+			"<picture>",
+				"\t<source srcset=\"$1.avif\" type=\"image/avif\">",
+				"\t<source srcset=\"$1.webp\" type=\"image/webp\">",
+				"\t<img loadng=\"lazy\" width\"200\" heigth\"300\" src=\"$3.jpg\" alt=\"$4\">",
+
+			"</picture>"
+		]
+	}
